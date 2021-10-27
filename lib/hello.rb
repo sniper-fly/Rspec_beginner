@@ -9,6 +9,7 @@ class User
     @name = name
     @age = age
   end
+
   def greet
     if @age <= 12
       "ぼくは#{@name}だよ。"
